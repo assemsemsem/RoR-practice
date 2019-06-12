@@ -1,0 +1,5 @@
+<ul>
+  <% @tasks_list do |TaskList| %>
+    <li><%= link_to TaskList.name, TaskList_path(TaskList) %></li>
+  <% end %>
+</ul>
